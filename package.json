@@ -1,7 +1,7 @@
 {
-  "name": "ts-cli",
+  "name": "@thinhbh/dirmanager",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example CLI for managing directories and publish package using github actions",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,8 +12,14 @@
   "bin": {
     "dirmanager": "./dist/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cli",
+    "typescript",
+    "dirmanager"
+  ],
+  "author": "thinh bui hong",
+  "repository": "https://github.com/thinhbuihong/dirmanager-cli",
+  "homepage": "https://github.com/thinhbuihong/dirmanager-cli#readme",
   "license": "ISC",
   "dependencies": {
     "@types/figlet": "^1.5.5",
