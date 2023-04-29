@@ -1,0 +1,27 @@
+{
+  "name": "ts-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "yarn tsc",
+    "start": "yarn build && node ./dist/index.js",
+    "go": "node ./dist/index.js"
+  },
+  "bin": {
+    "dirmanager": "./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/figlet": "^1.5.5",
+    "commander": "^10.0.1",
+    "figlet": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.2",
+    "typescript": "^5.0.4"
+  }
+}
